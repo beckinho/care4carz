@@ -1,0 +1,140 @@
+/* Write your custom CSS here */
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 !important;
+  &.active{
+  	background: red;
+  }
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: white;
+  color: #777;
+  padding : 5px 15px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background: white;
+	color: #777;
+}
+
+.values{
+  padding: 0px 0px 10px 0px;
+}
+
+.vehicle-details > div > h3{
+  margin-top: 0;
+}
+
+.margin-top{
+  margin-top: 20px;
+}
+
+.sub-header > h3{
+  text-transform: uppercase;
+  color: #D0021B;
+  font-size: 20px;
+}
+
+
+.accordion-toggle{
+  cursor: pointer;
+}
+tr > td.hiddenRow {
+    position: relative;
+    //padding: 0 !important;
+    // border-right: 1px solid #ddd;
+
+}
+.maintained{
+  width: 15%;
+}
+.engine{
+  width: 12%;
+}
+.suspension{
+  width: 17%;
+}
+.tires{
+  width: 18%;
+}
+.electronics{
+  width: 13%;
+}
+.service{
+  width: 12%;
+}
+.cost{
+  width: 12%;
+}
+
+
+
+.margin{
+  margin-top: 10px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.navbar .logo-box{
+  background-color: #D0021B;
+}
+
+.page-content{
+  background: #252A31;
+}
+.sidebar-header, .menu{
+  background: #252A31;
+}
+
+thead > tr > th{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.details{
+  //height: 50px;
+  display: inline-block;
+  padding: 10px 0px;
+  // border-right: 1px solid #ddd;
+}
+
+.arrow{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 20px solid #D0021B;
+    position: absolute;
+    right: -40px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.btn{
+  background-color: #252A31;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+}
+
+.btn:hover{
+  background-color: #D0021B;
+  color: white;
+}
+.btn:active{
+  background-color: #D0021B;
+  color: white;
+}
+.btn:focus{
+  background-color: #D0021B;
+  color: white;
+}
+
+
+
+

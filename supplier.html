@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!-- Title -->
+        <title>Modern | Admin Dashboard Template</title>
+        
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta charset="UTF-8">
+        <meta name="description" content="Admin Dashboard Template" />
+        <meta name="keywords" content="admin,dashboard" />
+        <meta name="author" content="Steelcoders" />
+        
+        <!-- Styles -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+        <link href="assets/plugins/pace-master/themes/blue/pace-theme-flash.css" rel="stylesheet"/>
+        <link href="assets/plugins/uniform/css/uniform.default.min.css" rel="stylesheet"/>
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/fontawesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/line-icons/simple-line-icons.css" rel="stylesheet" type="text/css"/>	
+        <link href="assets/plugins/waves/waves.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/plugins/weather-icons-master/css/weather-icons.min.css" rel="stylesheet" type="text/css"/>	
+        	
+        <!-- Theme Styles -->
+        <link href="assets/css/modern.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/themes/green.css" class="theme-color" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body class="page-header-fixed">
+        <div class="overlay"></div>
+        <form class="search-form" action="#" method="GET">
+            <div class="input-group">
+                <input type="text" name="search" class="form-control search-input" placeholder="Search...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
+                </span>
+            </div><!-- Input Group -->
+        </form><!-- Search Form -->
+        <main class="page-content content-wrap">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="sidebar-pusher">
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic push-sidebar">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="logo-box">
+                        <a href="index.html" class="logo-text"><span>Care4Carz</span></a>
+                    </div><!-- Logo Box -->
+                    <div class="search-button">
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                    </div>
+                    <div class="topmenu-outer">
+                        <div class="top-menu">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li>		
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic sidebar-toggle"><i class="fa fa-bars"></i></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
+                                        <i class="fa fa-cogs"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-md dropdown-list theme-settings" role="menu">
+                                        <li class="li-group">
+                                            <ul class="list-unstyled">
+                                                <li class="no-link" role="presentation">
+                                                    Setting options
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="li-group">
+                                            <ul class="list-unstyled">
+                                                <li class="no-link" role="presentation">
+                                                    Toggle Sidebar 
+                                                    <div class="ios-switch pull-right switch-md">
+                                                        <input type="checkbox" class="js-switch pull-right toggle-sidebar-check">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>	
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown"><i class="fa fa-envelope"></i><span class="badge badge-success pull-right">3</span></a>
+                                    <ul class="dropdown-menu title-caret dropdown-lg" role="menu">
+                                        <li><p class="drop-title">You have 3 new  messages !</p></li>
+                                        <li class="dropdown-menu-list slimscroll messages">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online on"></div><img class="img-circle" src="assets/images/avatar2.png" alt=""></div>
+                                                        <p class="msg-name">Sandra Smith</p>
+                                                        <p class="msg-text">Request for quote</p>
+                                                        <p class="msg-time">3 minutes ago</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online off"></div><img class="img-circle" src="assets/images/avatar4.png" alt=""></div>
+                                                        <p class="msg-name">Amily Lee</p>
+                                                        <p class="msg-text">My car is still making noises</p>
+                                                        <p class="msg-time">8 minutes ago</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online off"></div><img class="img-circle" src="assets/images/avatar3.png" alt=""></div>
+                                                        <p class="msg-name">Christopher Palmer</p>
+                                                        <p class="msg-text">I will bring my car at 12:00 PM</p>
+                                                        <p class="msg-time">56 minutes ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="drop-all"><a href="#" class="text-center">All Messages</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
+                                        <span class="user-name">David<i class="fa fa-angle-down"></i></span>
+                                        <img class="img-circle avatar" src="assets/images/avatar1.png" width="40" height="40" alt="">
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-list" role="menu">
+                                        <li role="presentation"><a href="profile.html"><i class="fa fa-user"></i>Profile</a></li>
+                                        <li role="presentation" class="divider"></li>
+                                        <li role="presentation"><a href="login.html"><i class="fa fa-sign-out m-r-xs"></i>Log out</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="login.html" class="log-out waves-effect waves-button waves-classic">
+                                        <span><i class="fa fa-sign-out m-r-xs"></i>Log out</span>
+                                    </a>
+                                </li>
+                            </ul><!-- Nav -->
+                        </div><!-- Top Menu -->
+                    </div>
+                </div>
+            </div><!-- Navbar -->
+            <div class="page-sidebar sidebar">
+                <div class="page-sidebar-inner slimscroll">
+                    <div class="sidebar-header">
+                        <div class="sidebar-profile">
+                            <a href="javascript:void(0);" id="profile-menu-link">
+                                <div class="sidebar-profile-image">
+                                    <img src="assets/images/profile-menu-image.png" class="img-circle img-responsive" alt="">
+                                </div>
+                                <div class="sidebar-profile-details">
+                                    <span>David Green</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="menu accordion-menu">
+                        <li class="active"><a href="index.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Dashboard</p></a></li>
+                        <li><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-user"></span><p>Profile</p></a></li>
+                        <li><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-wrench"></span><p>Servicing</p></a></li>
+                        <li><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-calendar"></span><p>Calendar</p></a></li>
+                        <li><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-usd"></span><p>Quotes</p></a></li>
+                       <!--  <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-briefcase"></span><p>UI Kits</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="ui-alerts.html">Alerts</a></li>
+                                <li><a href="ui-buttons.html">Buttons</a></li>
+                                <li><a href="ui-icons.html">Icons</a></li>
+                                <li><a href="ui-typography.html">Typography</a></li>
+                                <li><a href="ui-notifications.html">Notifications</a></li>
+                                <li><a href="ui-grid.html">Grid</a></li>
+                                <li><a href="ui-tabs-accordions.html">Tabs &amp; Accordions</a></li>
+                                <li><a href="ui-modals.html">Modals</a></li>
+                                <li><a href="ui-panels.html">Panels</a></li>
+                                <li><a href="ui-progress.html">Progress Bars</a></li>
+                                <li><a href="ui-sliders.html">Sliders</a></li>
+                                <li><a href="ui-nestable.html">Nestable</a></li>
+                                <li><a href="ui-tree-view.html">Tree View</a></li>
+                            </ul>
+                        </li>
+                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-th"></span><p>Layouts</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="layout-blank.html">Blank Page</a></li>
+                                <li><a href="layout-boxed.html">Boxed Page</a></li>
+                                <li><a href="layout-horizontal-menu.html">Horizontal Menu</a></li>
+                                <li><a href="layout-horizontal-menu-boxed.html">Boxed &amp; Horizontal Menu</a></li>
+                                <li><a href="layout-horizontal-menu-minimal.html">Horizontal Menu Minimal</a></li>
+                                <li><a href="layout-fixed-sidebar.html">Fixed Sidebar</a></li>
+                                <li><a href="layout-static-header.html">Static Header</a></li>
+                                <li><a href="layout-collapsed-sidebar.html">Collapsed Sidebar</a></li>
+                                <li><a href="layout-compact-menu.html">Compact Menu</a></li>
+                                <li><a href="layout-hover-menu.html">Hover Menu</a></li>
+                            </ul>
+                        </li>
+                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-list"></span><p>Tables</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="table-static.html">Static Tables</a></li>
+                                <li><a href="table-responsive.html">Responsive Tables</a></li>
+                                <li><a href="table-data.html">Data Tables</a></li>
+                            </ul>
+                        </li>
+                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-edit"></span><p>Forms</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="form-elements.html">Form Elements</a></li>
+                                <li><a href="form-wizard.html">Form Wizard</a></li>
+                                <li><a href="form-upload.html">File Upload</a></li>
+                                <li><a href="form-image-crop.html">Image Crop</a></li>
+                                <li><a href="form-image-zoom.html">Image Zoom</a></li>
+                                <li><a href="form-select2.html">Select2</a></li>
+                                <li><a href="form-x-editable.html">X-editable</a></li>
+                            </ul>
+                        </li>
+                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-stats"></span><p>Charts</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="charts-sparkline.html">Sparkline</a></li>
+                                <li><a href="charts-rickshaw.html">Rickshaw</a></li>
+                                <li><a href="charts-morris.html">Morris</a></li>
+                                <li><a href="charts-flotchart.html">Flotchart</a></li>
+                                <li><a href="charts-chartjs.html">Chart.js</a></li>
+                            </ul>
+                        </li>
+                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-log-in"></span><p>Login</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="login.html">Login Form</a></li>
+                                <li><a href="login-alt.html">Login Alt</a></li>
+                                <li><a href="register.html">Register Form</a></li>
+                                <li><a href="register-alt.html">Register Alt</a></li>
+                                <li><a href="forgot.html">Forgot Password</a></li>
+                                <li><a href="lock-screen.html">Lock Screen</a></li>
+                            </ul>
+                        </li>
+                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-map-marker"></span><p>Maps</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="maps-google.html">Google Maps</a></li>
+                                <li><a href="maps-vector.html">Vector Maps</a></li>
+                            </ul>
+                        </li>
+                        <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-gift"></span><p>Extra</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="404.html">404 Page</a></li>
+                                <li><a href="500.html">500 Page</a></li>
+                                <li><a href="invoice.html">Invoice</a></li>
+                                <li><a href="calendar.html">Calendar</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="todo.html">Todo</a></li>
+                                <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="timeline.html">Timeline</a></li>
+                                <li><a href="search.html">Search Results</a></li>
+                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li> -->
+                        <!-- <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-flash"></span><p>Levels</p><span class="arrow"></span></a>
+                            <ul class="sub-menu">
+                                <li class="droplink"><a href="#"><p>Level 1.1</p><span class="arrow"></span></a>
+                                    <ul class="sub-menu">
+                                        <li class="droplink"><a href="#"><p>Level 2.1</p><span class="arrow"></span></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Level 3.1</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Level 2.2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Level 1.2</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </div><!-- Page Sidebar Inner -->
+            </div><!-- Page Sidebar -->
+            <div class="page-inner">
+                <div class="page-title">
+                    <h3>Supplier Dashboard</h3>
+                    <div class="page-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Dashboard</li>
+                        </ol>
+                    </div>
+                </div>
+                <div id="main-wrapper">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div id="exTab3"> 
+                                <ul  class="nav nav-pills">
+                                    <li class="active">
+                                        <a  href="#1b" data-toggle="tab">SUMMARY</a>
+                                    </li>
+                                    <li>
+                                        <a  href="#2b" data-toggle="tab">NOT PAID OR COLLECTED</a>
+                                    </li>
+                                    <li>
+                                        <a href="#3b" data-toggle="tab">NOT PAID &amp; COLLECTED</a>
+                                    </li>
+                                    <li>
+                                        <a href="#4b" data-toggle="tab">PAID &amp; NOT COLLECTED</a>
+                                    </li>
+                                    <li>
+                                        <a href="#5b" data-toggle="tab">PAID &amp; COLLECTED</a>
+                                    </li>
+                                </ul>
+
+
+                                <div class="tab-content clearfix">
+                                    <!-- START OF TAB 1 -->
+                                    <div class="tab-pane active" id="1b">
+
+                                        <!-- 1st PART *** NOT PAID OR COLLECTED TABLE -->
+                                        <div class="col-xs-12">
+                                            <div class="sub-header">
+                                                <h3>NOT PAID OR COLLECTED</h3>
+                                            </div>
+                                        </div>
+                                        <table class="table table-condensed" style="border-collapse:collapse;">
+                                            <thead>
+                                                <tr>
+                                                    <th>Client Name</th>
+                                                    <th>Car VIN No.</th>
+                                                    <th>Vehicle Make</th>
+                                                    <th>Vehicle Type</th>
+                                                    <th>COST incl. VAT</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Poorya Molaei</td>
+                                                    <td>4D152154S55</td>
+                                                    <td>Opel</td>
+                                                    <td>Corsa Lite 1.4</td>
+                                                    <td class="bold">R 18947.50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="bold">Totals</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class="bold">R 18,947.50</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- 2nd PART *** NOT PAID AND COLLECTED TABLE -->
+                                        <div class="col-xs-12">
+                                            <div class="sub-header">
+                                                <h3>NOT PAID &amp; COLLECTED</h3>
+                                            </div>
+                                        </div>
+                                        <table class="table table-condensed" style="border-collapse:collapse;">
+                                            <thead>
+                                                <tr>
+                                                    <th>Client Name</th>
+                                                    <th>Car VIN No.</th>
+                                                    <th>Vehicle Make</th>
+                                                    <th>Vehicle Type</th>
+                                                    <th>Collected Date and Time</th>
+                                                    <th>COST incl. VAT</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Tendai Sipiso</td>
+                                                    <td>5D41156F645</td>
+                                                    <td>Wolkswagen</td>
+                                                    <td>Citi 1.3</td>
+                                                    <td>14/04/2016 09:31 AM</td>
+                                                    <td class="bold">R 18,947.50</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Emad Sadeghi</td>
+                                                    <td>4D152154S55</td>
+                                                    <td>Opel</td>
+                                                    <td>Corsa Lite 1.4</td>
+                                                    <td>14/04/2016 13:30 PM</td>
+                                                    <td class="bold">R 12,350.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="bold">Totals</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class="bold">R 31,297.50</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+
+                                        <!-- 3rd PART *** PAID AND NOT COLLECTED TABLE -->
+                                        <div class="col-xs-12">
+                                            <div class="sub-header">
+                                                <h3>PAID &amp; NOT COLLECTED</h3>
+                                            </div>
+                                        </div>
+                                        <table class="table table-condensed" style="border-collapse:collapse;">
+                                            <thead>
+                                                <tr>
+                                                    <th>Client Name</th>
+                                                    <th>Car VIN No.</th>
+                                                    <th>Vehicle Make</th>
+                                                    <th>Vehicle Type</th>
+                                                    <th>COST incl. VAT</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Vusi Mnati</td>
+                                                    <td>5D41156F645</td>
+                                                    <td>Wolkswagen</td>
+                                                    <td>Citi 1.3</td>
+                                                    <td class="bold">R 23,451.17</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sipho Manata</td>
+                                                    <td>4D152154S55</td>
+                                                    <td>Opel</td>
+                                                    <td>Corsa Lite 1.4</td>
+                                                    <td class="bold">R 8,345.24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="bold">Totals</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class="bold">R 31,796.41</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+
+                                        <!-- 4th PART *** PAID AND COLLECTED TABLE -->
+                                        <div class="col-xs-12">
+                                            <div class="sub-header">
+                                                <h3>PAID &amp; COLLECTED</h3>
+                                            </div>
+                                        </div>
+                                        <table class="table table-condensed" style="border-collapse:collapse;">
+                                            <thead>
+                                                <tr>
+                                                    <th>Client Name</th>
+                                                    <th>Car VIN No.</th>
+                                                    <th>Vehicle Make</th>
+                                                    <th>Vehicle Type</th>
+                                                    <th>Collected Date and Time</th>
+                                                    <th>COST incl. VAT</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Vusi Mnati</td>
+                                                    <td>5D41156F645</td>
+                                                    <td>Wolkswagen</td>
+                                                    <td>Citi 1.3</td>
+                                                    <td>14/04/2016 13:30 PM</td>
+                                                    <td class="bold">R 23,451.17</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sipho Manata</td>
+                                                    <td>4D152154S55</td>
+                                                    <td>Opel</td>
+                                                    <td>Corsa Lite 1.4</td>
+                                                    <td>14/04/2016 13:30 PM</td>
+                                                    <td class="bold">R 8,345.24</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="bold">Totals</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class="bold">R 31,796.41</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <!-- ENAD OF TAB 1 -->
+
+
+
+
+
+                                    <!-- START OF TAB 2 -->
+                                    <div class="tab-pane" id="2b">
+                                        <h3>Demo Tab</h3>
+                                    </div>
+                                    <!-- END OF TAB 2 -->
+
+                                    <div class="tab-pane" id="3b">
+                                        <h3>Demo Tab</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                    </div>
+                </div><!-- Main Wrapper -->
+                <div class="page-footer">
+                    <p class="no-s">2015 &copy; Modern by Steelcoders.</p>
+                </div>
+            </div><!-- Page Inner -->
+        </main><!-- Page Content -->
+	
+
+        <!-- Javascripts -->
+        <script src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+        <script src="assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+        <script src="assets/plugins/pace-master/pace.min.js"></script>
+        <script src="assets/plugins/jquery-blockui/jquery.blockui.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+        <script src="assets/plugins/uniform/jquery.uniform.min.js"></script>
+        <script src="assets/plugins/waves/waves.min.js"></script>
+        <script src="assets/plugins/waypoints/jquery.waypoints.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.time.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.symbol.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.resize.min.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.tooltip.min.js"></script>
+        <script src="assets/plugins/curvedlines/curvedLines.js"></script>
+        <script src="assets/js/modern.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/pages/dashboard.js"></script>
+        
+    </body>
+</html>
